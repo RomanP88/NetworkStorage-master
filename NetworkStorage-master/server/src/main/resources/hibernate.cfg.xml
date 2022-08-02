@@ -1,0 +1,15 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
+        <property name="hibernate.connection.url">jdbc:sqlite:db.sqlite</property>
+        <!-- SQL dialect -->
+        <property name="dialect">org.sqlite.hibernate.dialect.SQLiteDialect</property>
+        <!-- Show and print nice SQL on stdout -->
+        <property name="show_sql">false</property>
+        <property name="format_sql">false</property>
+        <!-- Create Database -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+<!--        <mapping class="ru.gb.storage.server.models.User"/>-->
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NetworkStorage-master.iml" filepath="$PROJECT_DIR$/.idea/NetworkStorage-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkStorage-master/client/client.iml" filepath="$PROJECT_DIR$/NetworkStorage-master/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkStorage-master/commons/commons.iml" filepath="$PROJECT_DIR$/NetworkStorage-master/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkStorage-master/root.iml" filepath="$PROJECT_DIR$/NetworkStorage-master/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkStorage-master/server/server.iml" filepath="$PROJECT_DIR$/NetworkStorage-master/server/server.iml" />
+    </modules>
+  </component>
+</project>

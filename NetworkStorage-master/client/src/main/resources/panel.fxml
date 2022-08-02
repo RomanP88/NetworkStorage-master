@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gb.storage.client.controller.FilePanelController">
+    <HBox>
+        <ComboBox fx:id="disksBox" onAction="#selectDiskAction"/>
+        <TextField fx:id="pathField" editable="false" HBox.hgrow="ALWAYS"/>
+        <Button text="Вверх" fx:id="btnUp" onAction="#btnPathUpAction"/>
+    </HBox>
+    <TableView fx:id="fileInfoView" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="fileTypeColumn" visible="false" editable="false" prefWidth="372.0" text="Имя" />
+            <TableColumn fx:id="filename" editable="false" prefWidth="372.0" sortable="false" text="Имя" />
+            <TableColumn fx:id="fileSize" editable="false" prefWidth="117.0" sortable="false" text="Размер" />
+            <TableColumn fx:id="lastModified" editable="false" prefWidth="118.0" text="Дата изменения" />
+        </columns>
+    </TableView>
+
+    <properties>
+        <ctrl><fx:reference source="controller"/></ctrl>
+    </properties>
+</VBox>

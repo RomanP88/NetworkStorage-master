@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="149.0" prefWidth="243.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gb.storage.client.controller.LoginController">
+   <children>
+      <Button fx:id="btnOk" layoutX="148.0" layoutY="109.0" mnemonicParsing="false" onAction="#sendRequest" prefHeight="25.0" prefWidth="81.0" text="OK" />
+      <CheckBox fx:id="cbRegister" layoutX="17.0" layoutY="113.0" mnemonicParsing="false" onAction="#changeBtnText" text="Зарегистрировать?" />
+      <TextField fx:id="textLogin" layoutX="17.0" layoutY="46.0" prefHeight="25.0" prefWidth="212.0"
+                 onAction="#sendRequest" promptText="Логин"/>
+      <PasswordField fx:id="textPassword" layoutX="17.0" layoutY="80.0" prefHeight="25.0" prefWidth="212.0" onAction="#sendRequest" promptText="Пароль" />
+      <Label fx:id="labelStatus" layoutX="17.0" layoutY="21.0" />
+   </children>
+</AnchorPane>
