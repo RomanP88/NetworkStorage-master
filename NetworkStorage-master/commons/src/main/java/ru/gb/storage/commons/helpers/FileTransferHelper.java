@@ -7,6 +7,7 @@ import java.io.RandomAccessFile;
 import java.nio.file.Path;
 
 public class FileTransferHelper {
+
     private final int PACKET_SIZE = 64 * 1024;
     private RandomAccessFile file;
     private int currentPart;

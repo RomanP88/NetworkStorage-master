@@ -13,6 +13,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public User findById(int id) {
         return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(User.class, id);
+
     }
 
     @Override

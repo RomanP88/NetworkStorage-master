@@ -57,7 +57,6 @@ public class NetworkServiceImpl implements NetworkService {
         System.out.println("Client started");
         channel = bootstrap.connect("localhost", 9000).sync().channel();
     }
-
     @Override
     public void stop() {
         if (connected) {

@@ -8,4 +8,5 @@ public class RenameErrorMessage extends ErrorMessage {
     public RenameErrorMessage(String errorMessage) {
         super(errorMessage);
     }
+
 }

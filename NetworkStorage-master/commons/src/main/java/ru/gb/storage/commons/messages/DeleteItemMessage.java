@@ -10,4 +10,5 @@ public class DeleteItemMessage extends Message {
     public void setPathToDeleteItem(String pathToDeleteItem) {
         this.pathToDeleteItem = pathToDeleteItem;
     }
+
 }

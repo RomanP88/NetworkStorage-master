@@ -25,6 +25,7 @@ public class FilePanelController {
     private boolean serverPanel;
     private Client client;
 
+
     @FXML
     private ComboBox<String> disksBox;
     @FXML

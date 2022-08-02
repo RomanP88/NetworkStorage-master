@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 public class ClientHandler extends SimpleChannelInboundHandler<Message> {
     private Client client;
 
+
     public ClientHandler(Client client) {
         this.client = client;
     }

@@ -5,6 +5,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 
 public class ProgressBarController {
+
     @FXML
     private Label lblPercent;
     @FXML

@@ -10,6 +10,7 @@ import ru.gb.storage.commons.messages.AuthRequestMessage;
 import ru.gb.storage.commons.messages.RegisterRequestMessage;
 
 public class LoginController {
+
     @FXML
     private Button btnOk;
     @FXML

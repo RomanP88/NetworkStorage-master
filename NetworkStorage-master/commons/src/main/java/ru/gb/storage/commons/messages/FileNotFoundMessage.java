@@ -8,4 +8,5 @@ public class FileNotFoundMessage extends ErrorMessage {
     public FileNotFoundMessage(String errorMessage) {
         super(errorMessage);
     }
+
 }

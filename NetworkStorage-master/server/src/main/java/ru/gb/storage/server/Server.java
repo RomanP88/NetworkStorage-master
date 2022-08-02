@@ -28,6 +28,7 @@ public class Server {
         this.port = port;
     }
 
+
     public void start() throws InterruptedException {
         NioEventLoopGroup bossGroup = new NioEventLoopGroup(1);
         NioEventLoopGroup workerGroup = new NioEventLoopGroup();

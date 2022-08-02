@@ -8,4 +8,5 @@ public class DeleteErrorMessage extends ErrorMessage {
     public DeleteErrorMessage(String errorMessage) {
         super(errorMessage);
     }
+
 }

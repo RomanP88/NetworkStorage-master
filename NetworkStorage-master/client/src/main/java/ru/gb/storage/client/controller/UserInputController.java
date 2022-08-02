@@ -5,6 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
 public class UserInputController {
+
     @FXML
     private TextField userInputField;
     @FXML

@@ -19,4 +19,5 @@ public class FileRequestMessage extends Message {
     public void setPathToSave(String pathToSave) {
         this.pathToSave = pathToSave;
     }
+
 }
