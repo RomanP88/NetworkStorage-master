@@ -10,4 +10,6 @@ public interface NetworkService {
     void stop();
     void send(Message msg);
     void send(FileTransferHelper helper) throws IOException;
+
+
 }
