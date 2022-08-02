@@ -10,6 +10,7 @@ import java.util.List;
 public class JsonDecoder extends MessageToMessageDecoder<String> {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
+
     @Override
     protected void decode(ChannelHandlerContext ctx, String msg, List<Object> out) throws Exception {
 //        System.out.println("Incoming message: " + msg);

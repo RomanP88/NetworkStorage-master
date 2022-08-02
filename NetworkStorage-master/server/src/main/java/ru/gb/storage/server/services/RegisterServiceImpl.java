@@ -23,4 +23,5 @@ public class RegisterServiceImpl implements RegisterService {
         User user = userDAO.findByLogin(login);
         return user != null;
     }
+
 }

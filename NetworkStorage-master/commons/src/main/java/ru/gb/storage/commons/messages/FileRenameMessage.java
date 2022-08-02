@@ -19,4 +19,5 @@ public class FileRenameMessage extends Message {
     public void setNewPath(String newPath) {
         this.newPath = newPath;
     }
+
 }

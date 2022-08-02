@@ -24,4 +24,5 @@ public class FileListResponseMessage extends Message {
     public void setPath(String path) {
         this.path = path;
     }
+
 }

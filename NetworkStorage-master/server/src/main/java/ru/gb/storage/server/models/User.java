@@ -7,6 +7,7 @@ import javax.transaction.Transactional;
 @Table(name = "users")
 @Transactional
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)

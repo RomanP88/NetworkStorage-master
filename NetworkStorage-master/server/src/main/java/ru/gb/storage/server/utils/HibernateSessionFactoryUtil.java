@@ -23,5 +23,6 @@ public class HibernateSessionFactoryUtil {
             }
         }
         return sessionFactory;
+
     }
 }

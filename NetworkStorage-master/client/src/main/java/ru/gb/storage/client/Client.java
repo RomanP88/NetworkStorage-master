@@ -80,7 +80,6 @@ public class Client extends Application {
             e.printStackTrace();
         }
     }
-
     @Override
     public void stop() throws Exception {
         super.stop();

@@ -11,5 +11,4 @@ public interface NetworkService {
     void send(Message msg);
     void send(FileTransferHelper helper) throws IOException;
 
-
 }

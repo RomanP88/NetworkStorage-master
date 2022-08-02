@@ -7,4 +7,5 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         property = "type"
 )
 public abstract class Message {
+
 }

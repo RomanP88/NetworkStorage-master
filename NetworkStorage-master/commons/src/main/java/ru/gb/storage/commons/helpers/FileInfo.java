@@ -9,6 +9,7 @@ import java.time.format.DateTimeFormatter;
 
 public class FileInfo {
     public enum FileTypes {
+
         FILE("F"), DIRECTORY("D");
 
         private String name;

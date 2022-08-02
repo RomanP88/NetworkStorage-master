@@ -30,6 +30,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<Message> {
     private Path currentDir;
     private Path homeDir;
 
+
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);

@@ -19,4 +19,5 @@ public class RegisterRequestMessage extends Message {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

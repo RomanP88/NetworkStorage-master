@@ -12,3 +12,4 @@
         <Button fx:id="btnOk" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" text="Ok"/>
     </children>
 </HBox>
+

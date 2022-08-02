@@ -55,4 +55,5 @@ public class FileResponseMessage extends Message {
     public void setContent(byte[] content) {
         this.content = content;
     }
+
 }

@@ -10,4 +10,5 @@ public class ChangeDirectoryMessage extends Message {
     public void setDirName(String dirName) {
         this.dirName = dirName;
     }
+
 }
